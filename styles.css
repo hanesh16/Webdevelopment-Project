@@ -47,12 +47,11 @@ h1 {
   width: 18rem;
   height: 100vh;
   position: fixed;
-  background-color:#cccccc;
+  background-color: #cccccc;
   border: solid #cccccc 10px;
-
 }
 
-.logo{
+.logo {
   margin-left: 35px;
   margin-bottom: 20px;
   font-family: "Sono";
@@ -63,7 +62,7 @@ h1 {
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  margin-top:5px;
+  margin-top: 5px;
   margin-left: 45px;
   margin-bottom: 10px;
 }
@@ -153,8 +152,8 @@ h1 {
     height: 100%;
   }
 
-  .logo{
-    margin-top:3px;
+  .logo {
+    margin-top: 3px;
     margin-left: 25px;
     font-size: 30px;
   }
@@ -235,7 +234,7 @@ h1 {
     visibility: hidden;
   }
 
-  .logo{
+  .logo {
     visibility: hidden;
   }
 
@@ -282,4 +281,79 @@ h1 {
 
 .flexcontainer {
   display: flex;
+}
+
+section {
+  margin-left: 350px;
+}
+
+.homeContent {
+  display: block;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 1rem;
+}
+
+.bar {
+  background-color: #cccccc;
+  text-align: center;
+  height: 4rem;
+  overflow-x: hidden;
+  margin-left: 13rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Sono";
+  font-size: 50px;
+}
+.homePic {
+  display: block;
+  width: auto;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeContent h1 {
+  font-family: "Sono";
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.homeContent p {
+  font-family: "Shadows Into Light";
+}
+
+@media (max-width: 768px) {
+  section {
+    margin-left: 200px;
+  }
+  .bar {
+    margin-left: 10rem;
+  }
+  .homePic {
+    width: auto;
+    height: 200px;
+  }
+}
+
+@media (max-width: 415px) {
+  section {
+    margin-left: 100px;
+  }
+  .bar {
+    margin-left: 4.5rem;
+  }
+  .homePic {
+    width: auto;
+    height: 100px;
+  }
+
+  .homeContent h1 {
+    font-size: 20px;
+  }
+  .homeContent h2 {
+    font-size: 15px;
+  }
 }
