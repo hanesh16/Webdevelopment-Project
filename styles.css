@@ -408,3 +408,80 @@ section {
   }
 
 }
+
+
+.project {
+  margin-top: 100px;
+}
+
+.projectGrid {
+  width: 85%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 25px;
+  height: auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.projectBox {
+  background-color: #fff;
+  border: 2px double black;
+  border-radius: 10px;
+}
+
+.projectImg1,
+.projectImg2,
+.projectImg3,
+.projectImg4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  height: 225px;
+}
+.projectImg1 {
+  background-image: url("./images/covid.jpg");
+}
+
+.projectImg2 {
+  background-image: url("./images/price.png");
+}
+
+.projectImg3 {
+  background-image: url("./images/dbms.png");
+}
+
+.projectImg4 {
+  background-image: url("./images/irc.png");
+}
+
+.projectContent {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.projectContent h2 {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: 'Sono';
+}
+
+.projectContent p {
+  margin: 15px 0px;
+  font-size: 15px;
+  font-family: 'Times New Roman';
+}
+
+.gitBtn {
+  width: 150px;
+  background: black;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 6px;
+  font-size: 17px;
+  cursor: pointer;
+}
