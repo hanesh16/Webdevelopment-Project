@@ -78,6 +78,10 @@ body {
   font-size: 25px;
   position: absolute;
   bottom: 10px;
+  text-decoration: none;
+}
+.socialicons a {
+  color: #080808;
 }
 .socialicons i {
   margin-left: 40px;
@@ -89,8 +93,8 @@ body {
     height: 100%;
   }
 
-  .nav-list{
-    margin-top:50px;
+  .nav-list {
+    margin-top: 50px;
   }
 
   .logo {
@@ -98,7 +102,7 @@ body {
     margin-left: 25px;
     font-size: 30px;
   }
-  
+
   .ctext {
     font-size: 15px;
     font-weight: bold;
@@ -160,7 +164,6 @@ body {
   display: flex;
 }
 
-
 .home {
   margin-left: 350px;
   margin-top: 100px;
@@ -207,7 +210,6 @@ body {
 .homeContent p {
   font-family: "Shadows Into Light";
 }
-
 
 .about {
   margin-top: 100px;
@@ -301,7 +303,7 @@ body {
   font-family: "Times New Roman";
   padding: 5px 10px;
   font-weight: bold;
-  color:black
+  color: black;
 }
 
 .prevTag:after {
